@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{template "general/header"}}
+</head>
+
+<body class="bg-gradient-to-r from-cyan-500 to-blue-500 content flex justify-center ">
+    <div class="bg-white m-20 rounded-xl flex flex-col p-10 shadow-2xl shadow-black max-w-fit">
+        <h1 class="flex justify-center font-serif pt-3 h-16 text-4xl font-bold">Welcome to kanban app</h1>
+
+        <form method="post" action="/category/create">
+            <div class="flex flex-row justify-evenly">
+                <a href="/login" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+                    Login
+                </a>
+                <a href="/register" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
+                    Register
+                </a>
+            </div>
+        </form>
+
+        <footer class="flex flex-col items-center md:mx-auto mt-5">
+            <p>© Safiar Azalia Amanullah - BE2671558 - 2022</p>
+        </footer>
+    </div>
+</body>
+
+</html>
